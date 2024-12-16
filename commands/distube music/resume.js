@@ -31,9 +31,9 @@ module.exports = {
                 .setAuthor({ 
                     name: lang.resumeSuccessTitle, 
                     iconURL: musicIcons.pauseresumeIcon,
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.gg/43VDd3UTrM"
                 })
-                .setFooter({ text: 'Distube Player', iconURL: musicIcons.footerIcon })
+                .setFooter({ text: 'Ins4ne Player', iconURL: musicIcons.footerIcon })
                 .setDescription(lang.resumeSuccessMessage);
 
             if (interaction.isCommand && interaction.isCommand()) {
@@ -51,9 +51,9 @@ module.exports = {
                         .setAuthor({ 
                             name: lang.resumeNoQueueTitle, 
                             iconURL: musicIcons.wrongIcon,
-                            url: "https://discord.gg/xQF9f9yUEM"
+                            url: "https://discord.gg/43VDd3UTrM"
                         })
-                        .setFooter({ text: 'Distube Player', iconURL: musicIcons.footerIcon })
+                        .setFooter({ text: 'Ins4ne Player', iconURL: musicIcons.footerIcon })
                         .setDescription(lang.resumeNoQueueMessage);
 
                     if (interaction.isCommand && interaction.isCommand()) {
@@ -67,9 +67,9 @@ module.exports = {
                         .setAuthor({ 
                             name: lang.resumeNotPausedTitle, 
                             iconURL: musicIcons.wrongIcon,
-                            url: "https://discord.gg/xQF9f9yUEM"
+                            url: "https://discord.gg/43VDd3UTrM"
                         })
-                        .setFooter({ text: 'Distube Player', iconURL: musicIcons.footerIcon })
+                        .setFooter({ text: 'Ins4ne Player', iconURL: musicIcons.footerIcon })
                         .setDescription(lang.resumeNotPausedMessage);
 
                     if (interaction.isCommand && interaction.isCommand()) {
@@ -83,9 +83,9 @@ module.exports = {
                         .setAuthor({ 
                             name: lang.resumeAlreadyResumedTitle, 
                             iconURL: musicIcons.wrongIcon,
-                            url: "https://discord.gg/xQF9f9yUEM"
+                            url: "https://discord.gg/43VDd3UTrM"
                         })
-                        .setFooter({ text: 'Distube Player', iconURL: musicIcons.footerIcon })
+                        .setFooter({ text: 'Ins4ne Player', iconURL: musicIcons.footerIcon })
                         .setDescription(lang.resumeAlreadyResumedMessage);
 
                     if (interaction.isCommand && interaction.isCommand()) {

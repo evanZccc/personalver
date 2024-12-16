@@ -48,7 +48,7 @@ module.exports = {
                 .setAuthor({ 
                     name: "Alert!", 
                     iconURL: cmdIcons.dotIcon,
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.gg/43VDd3UTrM"
                 })
                 .setDescription(lang.timeoutPrefixError)
                 .setTimestamp();

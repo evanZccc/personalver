@@ -24,7 +24,7 @@ module.exports = {
                 .setAuthor({ 
                     name: lang.seekAlertTitle, 
                     iconURL: cmdIcons.dotIcon,
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.gg/43VDd3UTrM"
                 })
                 .setDescription(lang.seekAlertMessage)
                 .setTimestamp();
@@ -62,9 +62,9 @@ module.exports = {
                 .setAuthor({ 
                     name: lang.seekSuccessTitle, 
                     iconURL: musicIcons.correctIcon,
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.gg/43VDd3UTrM"
                 })
-                .setFooter({ text: 'Distube Player', iconURL: musicIcons.footerIcon })
+                .setFooter({ text: 'Ins4ne Player', iconURL: musicIcons.footerIcon })
                 .setDescription(lang.seekSuccessMessage.replace('%timestamp%', this.formatTimestamp(seekSeconds)));
 
             await source.channel.send({ embeds: [seekEmbed] });
@@ -78,9 +78,9 @@ module.exports = {
                     .setAuthor({ 
                         name: lang.seekNoQueueTitle, 
                         iconURL: musicIcons.wrongIcon,
-                        url: "https://discord.gg/xQF9f9yUEM"
+                        url: "https://discord.gg/43VDd3UTrM"
                     })
-                    .setFooter({ text: 'Distube Player', iconURL: musicIcons.footerIcon })
+                    .setFooter({ text: 'Ins4ne Player', iconURL: musicIcons.footerIcon })
                     .setDescription(lang.seekNoQueueMessage);
 
                 await source.channel.send({ embeds: [noQueueEmbed] });

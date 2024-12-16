@@ -34,9 +34,9 @@ module.exports = {
                     .setAuthor({ 
                         name: lang.skipNoSongsTitle, 
                         iconURL: musicIcons.wrongIcon,
-                        url: "https://discord.gg/xQF9f9yUEM"
+                        url: "https://discord.gg/43VDd3UTrM"
                     })
-                    .setFooter({ text: 'Distube Player', iconURL: musicIcons.footerIcon })   
+                    .setFooter({ text: 'Ins4ne Player', iconURL: musicIcons.footerIcon })   
                     .setDescription(lang.skipNoSongsMessage);
 
                 return interaction.reply({ embeds: [noSongsEmbed] });
@@ -49,9 +49,9 @@ module.exports = {
                 .setAuthor({ 
                     name: lang.skipSuccessTitle, 
                     iconURL: musicIcons.skipIcon,
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.gg/43VDd3UTrM"
                 })
-                .setFooter({ text: 'Distube Player', iconURL: musicIcons.footerIcon })  
+                .setFooter({ text: 'Ins4ne Player', iconURL: musicIcons.footerIcon })  
                 .addFields(
                     { name: lang.skipTitleField, value: nextSong.name },
                     { name: lang.skipDurationField, value: nextSong.formattedDuration }
@@ -67,9 +67,9 @@ module.exports = {
                     .setAuthor({ 
                         name: lang.skipNoQueueTitle, 
                         iconURL: musicIcons.wrongIcon,
-                        url: "https://discord.gg/xQF9f9yUEM"
+                        url: "https://discord.gg/43VDd3UTrM"
                     })
-                    .setFooter({ text: 'Distube Player', iconURL: musicIcons.footerIcon })  
+                    .setFooter({ text: 'Ins4ne Player', iconURL: musicIcons.footerIcon })  
                     .setDescription(lang.skipNoQueueMessage);
 
                 await interaction.reply({ embeds: [noQueueEmbed] });
@@ -79,9 +79,9 @@ module.exports = {
                     .setAuthor({ 
                         name: lang.skipNoUpNextTitle, 
                         iconURL: musicIcons.wrongIcon,
-                        url: "https://discord.gg/xQF9f9yUEM"
+                        url: "https://discord.gg/43VDd3UTrM"
                     })
-                    .setFooter({ text: 'Distube Player', iconURL: musicIcons.footerIcon })  
+                    .setFooter({ text: 'Ins4ne Player', iconURL: musicIcons.footerIcon })  
                     .setDescription(lang.skipNoUpNextMessage);
 
                 await interaction.reply({ embeds: [noUpNextEmbed] });

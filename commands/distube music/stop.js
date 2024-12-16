@@ -32,9 +32,9 @@ module.exports = {
                 .setAuthor({ 
                     name: lang.stopSuccessTitle, 
                     iconURL: musicIcons.stopIcon,
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.gg/43VDd3UTrM"
                 })
-                .setFooter({ text: 'Distube Player', iconURL: musicIcons.footerIcon })   
+                .setFooter({ text: 'Ins4ne Player', iconURL: musicIcons.footerIcon })   
                 .setDescription(lang.stopSuccessMessage);
 
             await interaction.reply({ embeds: [stoppedEmbed] });
@@ -47,9 +47,9 @@ module.exports = {
                     .setAuthor({ 
                         name: lang.stopNoQueueTitle, 
                         iconURL: musicIcons.wrongIcon,
-                        url: "https://discord.gg/xQF9f9yUEM"
+                        url: "https://discord.gg/43VDd3UTrM"
                     })
-                    .setFooter({ text: 'Distube Player', iconURL: musicIcons.footerIcon })   
+                    .setFooter({ text: 'Ins4ne Player', iconURL: musicIcons.footerIcon })   
                     .setDescription(lang.stopNoQueueMessage);
 
                 await interaction.reply({ embeds: [noQueueEmbed] });
@@ -59,9 +59,9 @@ module.exports = {
                     .setAuthor({ 
                         name: lang.stopAlreadyStoppedTitle, 
                         iconURL: musicIcons.wrongIcon,
-                        url: "https://discord.gg/xQF9f9yUEM"
+                        url: "https://discord.gg/43VDd3UTrM"
                     })
-                    .setFooter({ text: 'Distube Player', iconURL: musicIcons.footerIcon })   
+                    .setFooter({ text: 'Ins4ne Player', iconURL: musicIcons.footerIcon })   
                     .setDescription(lang.stopAlreadyStoppedMessage);
 
                 await interaction.reply({ embeds: [alreadyStoppedEmbed] });

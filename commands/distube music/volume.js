@@ -24,7 +24,7 @@ module.exports = {
                 .setAuthor({
                     name: lang.volumeAlertTitle,
                     iconURL: cmdIcons.dotIcon,
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.gg/43VDd3UTrM"
                 })
                 .setDescription(lang.volumeAlertMessage)
                 .setTimestamp();
@@ -53,9 +53,9 @@ module.exports = {
                     .setAuthor({
                         name: lang.volumeNoSongTitle,
                         iconURL: musicIcons.wrongIcon,
-                        url: "https://discord.gg/xQF9f9yUEM"
+                        url: "https://discord.gg/43VDd3UTrM"
                     })
-                    .setFooter({ text: 'DisTube Player', iconURL: musicIcons.footerIcon })
+                    .setFooter({ text: 'Ins4ne Player', iconURL: musicIcons.footerIcon })
                     .setDescription(lang.volumeNoSongMessage);
 
                 return source.channel.send({ embeds: [noSongEmbed] });
@@ -68,10 +68,10 @@ module.exports = {
                 .setAuthor({
                     name: lang.volumeSuccessTitle,
                     iconURL: musicIcons.volumeIcon,
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.gg/43VDd3UTrM"
                 })
                 .setDescription(lang.volumeSuccessMessage.replace('{volumeLevel}', volumeLevel))
-                .setFooter({ text: 'DisTube Player', iconURL: musicIcons.footerIcon });
+                .setFooter({ text: 'Ins4ne Player', iconURL: musicIcons.footerIcon });
 
             return source.channel.send({ embeds: [volumeEmbed] });
         } catch (error) {
