@@ -66,7 +66,7 @@ module.exports = (client) => {
 
                 // Sending an embed with the song details and card image
                 const embed = new EmbedBuilder()
-                    .setAuthor({ name: "Now Streaming", iconURL: musicIcons.playerIcon, url: "https://discord.gg/xQF9f9yUEM" })
+                    .setAuthor({ name: "Now Streaming", iconURL: musicIcons.playerIcon, url: "https://discord.gg/43VDd3UTrM" })
                     .setDescription(`- Song name: **${track.info.title}**\n- Author: **${track.info.author}**`)
                     .setImage('attachment://songcard.png')
                     .setFooter({ text: 'Let the Beat Drop!', iconURL: musicIcons.footerIcon })
@@ -107,7 +107,7 @@ module.exports = (client) => {
                 .setAuthor({
                     name: "Queue is Empty",
                     iconURL: musicIcons.alertIcon,
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.gg/43VDd3UTrM"
                 })
                 .setDescription('**Leaving voice channel!**')
                 .setFooter({ text: 'Let the Beat Drop!', iconURL: musicIcons.footerIcon })
