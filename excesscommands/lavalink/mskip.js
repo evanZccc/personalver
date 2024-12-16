@@ -20,7 +20,7 @@ module.exports = {
             .setAuthor({
                 name: lang.songSkippedTitle,
                 iconURL: musicIcons.skipIcon,
-                url: "https://discord.gg/xQF9f9yUEM"
+                url: "https://discord.gg/43VDd3UTrM"
             })
             .setFooter({ text: lang.footerText, iconURL: musicIcons.footerIcon })
             .setDescription(`${lang.playingNextSongText}\n\n **${nextTrack.info.title}**`);

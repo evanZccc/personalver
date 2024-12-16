@@ -15,7 +15,7 @@ module.exports = {
             .setAuthor({
                 name: lang.songPausedTitle,
                 iconURL: musicIcons.pauseresumeIcon,
-                url: "https://discord.gg/xQF9f9yUEM"
+                url: "https://discord.gg/43VDd3UTrM"
             })
             .setFooter({ text: lang.footerText, iconURL: musicIcons.footerIcon })
             .setDescription(lang.songPausedDescription);
