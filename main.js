@@ -205,7 +205,7 @@ client.distube
                     color: 0xDC92FF, 
                     author: {
                         name: 'Now playing', 
-                        url: 'https://discord.gg/xQF9f9yUEM',
+                        url: 'https://discord.gg/43VDd3UTrM',
                         icon_url: musicIcons.playerIcon 
                     },
                     description: `- Song name: **${song.name}** \n- Duration: **${song.formattedDuration}**\n- Requested by: ${song.user}`,
@@ -213,7 +213,7 @@ client.distube
                         url: 'attachment://musicCard.png' 
                     },
                     footer: {
-                        text: 'Distube Player',
+                        text: 'Ins4ne Player',
                         icon_url: musicIcons.footerIcon 
                     },
                     timestamp: new Date().toISOString() 
@@ -234,12 +234,12 @@ client.distube
                     color: 0xDC92FF,
                     description: `**${song.name}** \n- Duration: **${song.formattedDuration}**\n- Added by: ${song.user}`,
                     footer: {
-                        text: 'Distube Player',
+                        text: 'Ins4ne Player',
                         icon_url: musicIcons.footerIcon 
                     },
                     author: {
                         name: 'Song added sucessfully', 
-                        url: 'https://discord.gg/xQF9f9yUEM',
+                        url: 'https://discord.gg/43VDd3UTrM',
                         icon_url: musicIcons.correctIcon 
                     },
                     timestamp: new Date().toISOString() 
@@ -300,7 +300,7 @@ app.get('/', (req, res) => {
     res.sendFile(imagePath);
 });
 app.listen(port, () => {
-    console.log(`🔗 Listening to GlaceYT : http://localhost:${port}`);
+    console.log(`Listening to dep : http://localhost:${port}`);
 });
 
 client.login(process.env.TOKEN);
