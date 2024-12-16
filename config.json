@@ -7,7 +7,7 @@
     "excessCommands": {
         "utility": true,
         "other": true,
-        "hentai": false,
+        "hentai": true,
         "lavalink": true,
         "troll": true
     },
@@ -22,11 +22,13 @@
     },
      "lavalink": {
         "lavalink": {
-            "host": "lava.catfein.com",
-            "port": 4000,
-            "password": "catfein",
+            "identifier": "LewdHuTao - Lavalink",
+            "host": "node.lewdhutao.my.eu.org",
+            "port": 80,
+            "password": "youshallnotpass",
             "secure": false
         }
+         
     }, 
     "spotifyClientId": "f71a3da30e254962965ca2a89d6f74b9",
     "spotifyClientSecret": "199a619d22dd4e55a4a2c1a7a3d70e63"
